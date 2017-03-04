@@ -8,11 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @SpringBootApplication
 public class PizzaOrderSystemApplication {
 	
-	@RequestMapping("/login")
-    @ResponseBody
-    String home() {
-      return "login";
-    }
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(PizzaOrderSystemApplication.class, args);
