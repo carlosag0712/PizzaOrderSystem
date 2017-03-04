@@ -37,7 +37,7 @@ private OrderRepository orderRepo;
 	{
 		List<Order> orders = orderRepo.findAll();
 		
-		Order order = new Order();
+		
 		model.put("orders", orders);
 		
 		return "orders";
